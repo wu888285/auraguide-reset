@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Discipline Reset — Stop Procrastinating in 7 Days (Free Guide)</title>
+<meta name="description" content="A free 7-day guide to stop procrastinating, keep the promises you make to yourself, and actually finish what you start — no motivation required.">
+<link rel="canonical" href="https://auraguide.xyz/">
+<!-- Open Graph / social preview -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="AuraGuide">
+<meta property="og:title" content="The Discipline Reset — 7 days to stop procrastinating">
+<meta property="og:description" content="Free 7-day guide. You don't have a motivation problem — you have a system problem. Fix it in 7 days.">
+<meta property="og:url" content="https://auraguide.xyz/">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="The Discipline Reset — 7 days to stop procrastinating">
+<meta name="twitter:description" content="Free 7-day guide. No motivation required.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --green:#28332d; --green2:#34423a; --cream:#f7f2e9; --cream2:#efe8d8;
+  --gold:#c9b079; --gold-d:#b39a5e; --ink:#2b2b28; --muted:#6b6f66; --line:#e2d9c6;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{font-family:'Inter',system-ui,sans-serif;color:var(--ink);background:var(--cream);line-height:1.65;-webkit-font-smoothing:antialiased}
+h1,h2,h3{font-family:'Fraunces',Georgia,serif;font-weight:500;line-height:1.12;letter-spacing:-.01em}
+.wrap{max-width:760px;margin:0 auto;padding:0 24px}
+a{color:inherit}
+
+/* HERO */
+.hero{background:var(--green);color:#f4efe4;padding:72px 0 80px;position:relative;overflow:hidden}
+.hero::after{content:"";position:absolute;right:-120px;top:-120px;width:340px;height:340px;border:1px solid rgba(201,176,121,.25);border-radius:50%}
+.eyebrow{font-size:12px;letter-spacing:.28em;text-transform:uppercase;color:var(--gold);font-weight:600;margin-bottom:22px}
+.hero h1{font-size:clamp(38px,7vw,60px);margin-bottom:20px}
+.hero h1 em{font-style:normal;color:var(--gold)}
+.hero p.lead{font-size:clamp(17px,2.4vw,20px);color:#d8d2c4;max-width:520px;margin-bottom:34px}
+.btn{display:inline-block;background:var(--gold);color:#28332d;font-weight:600;font-size:17px;
+  padding:17px 38px;border-radius:4px;text-decoration:none;letter-spacing:.02em;
+  box-shadow:0 10px 30px rgba(0,0,0,.25);transition:transform .15s,background .2s}
+.btn:hover{background:#d4bd86;transform:translateY(-2px)}
+.hero .fine{margin-top:16px;font-size:13.5px;color:#a9a494}
+.hero .fine span{margin:0 8px;opacity:.5}
+
+/* trust strip */
+.strip{background:var(--cream2);border-bottom:1px solid var(--line)}
+.strip .wrap{display:flex;gap:14px;flex-wrap:wrap;justify-content:center;padding-top:18px;padding-bottom:18px}
+.pill{font-size:13.5px;color:var(--muted);font-weight:500}
+.pill b{color:var(--green2)}
+
+/* sections */
+section{padding:64px 0}
+.sec-label{font-size:12px;letter-spacing:.26em;text-transform:uppercase;color:var(--gold-d);font-weight:600;margin-bottom:14px}
+h2.big{font-size:clamp(28px,4.6vw,38px);color:var(--green);margin-bottom:18px}
+.sec-intro{color:var(--muted);font-size:17px;max-width:560px}
+
+/* pain / callout */
+.callout{background:#fff;border:1px solid var(--line);border-left:4px solid var(--gold);
+  padding:28px 30px;border-radius:6px;margin-top:28px;color:#47493f;font-size:16.5px}
+.callout p+p{margin-top:14px}
+
+/* inside cards */
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:32px}
+.card{background:#fff;border:1px solid var(--line);border-radius:8px;padding:24px 22px}
+.card .n{font-family:'Fraunces',serif;font-size:30px;color:var(--gold-d);line-height:1;margin-bottom:12px}
+.card h3{font-size:17px;color:var(--green);margin-bottom:8px;font-family:'Inter',sans-serif;font-weight:600}
+.card p{font-size:14px;color:var(--muted);line-height:1.55}
+
+/* systems list */
+.sys{margin-top:30px}
+.sys-item{background:#fff;border:1px solid var(--line);border-radius:8px;padding:26px 28px;margin-bottom:16px}
+.sys-item h3{font-size:21px;color:var(--green);margin-bottom:10px}
+.sys-item ul{list-style:none;margin:6px 0 12px}
+.sys-item li{position:relative;padding-left:26px;margin-bottom:9px;color:#4a4c42;font-size:15.5px}
+.sys-item li::before{content:"—";position:absolute;left:0;color:var(--gold-d);font-weight:700}
+.sys-item .why{font-size:14.5px;color:var(--muted);font-style:italic}
+
+/* tracker preview */
+.track{margin-top:26px;background:#fff;border:1px solid var(--line);border-radius:8px;overflow:hidden}
+table{width:100%;border-collapse:collapse;font-size:14px}
+th{background:var(--green);color:#e9e3d4;text-align:left;padding:12px 14px;font-weight:600;font-size:12.5px;letter-spacing:.05em;text-transform:uppercase}
+td{padding:13px 14px;border-top:1px solid var(--line);color:var(--muted)}
+td:first-child{color:var(--green);font-weight:600;white-space:nowrap}
+tr:nth-child(even) td{background:#faf7f0}
+.box{display:inline-block;width:14px;height:14px;border:1.5px solid var(--gold-d);border-radius:2px}
+
+/* CTA band */
+.cta{background:var(--green);color:#f4efe4;text-align:center;padding:76px 0}
+.cta h2{font-size:clamp(30px,5vw,44px);margin-bottom:16px}
+.cta p{color:#cfc9ba;max-width:480px;margin:0 auto 32px;font-size:17px}
+.cta .fine{margin-top:16px;font-size:13px;color:#a39e8e}
+
+/* FAQ */
+.faq{max-width:680px;margin-top:30px}
+details{background:#fff;border:1px solid var(--line);border-radius:8px;padding:0 22px;margin-bottom:12px}
+summary{cursor:pointer;padding:19px 0;font-weight:600;color:var(--green);font-size:16px;list-style:none;position:relative}
+summary::-webkit-details-marker{display:none}
+summary::after{content:"+";position:absolute;right:4px;top:17px;font-size:22px;color:var(--gold-d);font-weight:400}
+details[open] summary::after{content:"–"}
+details p{padding:0 0 20px;color:var(--muted);font-size:15px}
+
+/* footer */
+footer{background:var(--green2);color:#b9b4a4;padding:40px 0;font-size:13.5px}
+footer .wrap{display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px}
+footer a{color:#cfc9b9;text-decoration:none}
+.brand{font-family:'Fraunces',serif;color:#eee7d6;font-size:16px;letter-spacing:.02em}
+
+@media(max-width:640px){
+  .grid{grid-template-columns:1fr}
+  .hero{padding:56px 0 64px}
+  section{padding:52px 0}
+  th:nth-child(3),td:nth-child(3){display:none}
+}
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <div class="wrap">
+    <div class="eyebrow">A Free 7-Day Reset Guide</div>
+    <h1>The Discipline <em>Reset</em></h1>
+    <p class="lead">7 days to stop procrastinating, keep the promises you make to yourself, and actually finish what you start — <strong>no motivation required.</strong></p>
+    <a class="btn" href="LOCKER_URL_PLACEHOLDER">Get the Free Guide →</a>
+    <div class="fine">Instant download<span>•</span>5 pages<span>•</span>No cost</div>
+  </div>
+</header>
+
+<div class="strip">
+  <div class="wrap">
+    <div class="pill"><b>7 days</b> · one small change a day</div>
+    <div class="pill"><b>3 systems</b> · clarity, friction, streak</div>
+    <div class="pill"><b>0 motivation</b> needed</div>
+  </div>
+</div>
+
+<section>
+  <div class="wrap">
+    <div class="sec-label">The real problem</div>
+    <h2 class="big">You don’t have a motivation problem.</h2>
+    <p class="sec-intro">You have a <strong>system problem</strong>. Motivation is unreliable — it shows up when things are exciting and disappears by Wednesday. Discipline is different: it’s a small set of systems that make the right action the easy one, even on your worst days.</p>
+    <div class="callout">
+      <p>If you’re honest, you already know <em>what</em> to do. You just don’t do it. You plan a productive morning and wake up to your phone instead. You start strong on Monday and quit by Wednesday.</p>
+      <p>That isn’t weakness — that’s relying on willpower, which always runs out. Over the next 7 days you’ll install three systems, one at a time. Each takes under 10 minutes.</p>
+    </div>
+  </div>
+</section>
+
+<section style="background:var(--cream2);border-top:1px solid var(--line);border-bottom:1px solid var(--line)">
+  <div class="wrap">
+    <div class="sec-label">What’s inside</div>
+    <h2 class="big">A focused plan, not a 200-page ebook.</h2>
+    <p class="sec-intro">Short on purpose — so you can read it today, start tonight, and see a real result by day 7.</p>
+    <div class="grid">
+      <div class="card"><div class="n">01</div><h3>Choose One Thing</h3><p>How to pick the single habit that changes the most, and shrink it until it’s almost too easy to skip.</p></div>
+      <div class="card"><div class="n">02</div><h3>Remove the Friction</h3><p>Make the good action 20 seconds easier and the bad action 20 seconds harder — fight yourself less.</p></div>
+      <div class="card"><div class="n">03</div><h3>Never Miss Twice</h3><p>The one rule that protects your streak, plus a printable 7-day tracker to check it off.</p></div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="sec-label">The three systems</div>
+    <h2 class="big">Get clear. Make it easy. Protect the streak.</h2>
+    <div class="sys">
+      <div class="sys-item">
+        <h3>01 · Choose One Thing — not ten</h3>
+        <ul>
+          <li>Pick the single habit that would change the most. One. Not a list.</li>
+          <li>Shrink it until it’s almost too easy: “read one page,” not “read 30 minutes.”</li>
+          <li>State exactly when and where: “After I brush my teeth, I will do 5 push-ups.”</li>
+        </ul>
+        <p class="why">Why it works: vague goals get skipped. Specific, tiny actions get done — and small actions compound.</p>
+      </div>
+      <div class="sys-item">
+        <h3>02 · Remove the Friction</h3>
+        <ul>
+          <li>Make the good thing 20 seconds easier: gym clothes out, water on your desk.</li>
+          <li>Make the bad thing 20 seconds harder: phone in another room, notifications off.</li>
+          <li>Design your environment once so you don’t fight yourself all day.</li>
+        </ul>
+        <p class="why">Why it works: you don’t rise to your goals, you fall to your environment.</p>
+      </div>
+      <div class="sys-item">
+        <h3>03 · Never Miss Twice</h3>
+        <ul>
+          <li>Missing one day is harmless. Missing two becomes a new habit — so don’t allow it.</li>
+          <li>Lower the bar on hard days: a two-minute version still counts.</li>
+          <li>Check it off visibly every day. The streak itself becomes the reward.</li>
+        </ul>
+        <p class="why">Why it works: consistency beats intensity. 30 boring days beat a perfect week you abandon.</p>
+      </div>
+    </div>
+    <p class="sec-label" style="margin-top:34px">Your 7-day tracker (printable)</p>
+    <div class="track">
+      <table>
+        <tr><th>Day</th><th>My one action</th><th>Done</th><th>How it felt</th></tr>
+        <tr><td>Day 1</td><td></td><td><span class="box"></span></td><td></td></tr>
+        <tr><td>Day 2</td><td></td><td><span class="box"></span></td><td></td></tr>
+        <tr><td>Day 3</td><td></td><td><span class="box"></span></td><td></td></tr>
+        <tr><td>Day 4</td><td></td><td><span class="box"></span></td><td></td></tr>
+        <tr><td>Day 5</td><td></td><td><span class="box"></span></td><td></td></tr>
+        <tr><td>Day 6</td><td></td><td><span class="box"></span></td><td></td></tr>
+        <tr><td>Day 7</td><td></td><td><span class="box"></span></td><td></td></tr>
+      </table>
+    </div>
+  </div>
+</section>
+
+<section class="cta">
+  <div class="wrap">
+    <h2>Start today, not Monday.</h2>
+    <p>Download the free guide, choose your one habit tonight, and have your first check-mark before you sleep.</p>
+    <a class="btn" href="LOCKER_URL_PLACEHOLDER">Get the Free Guide →</a>
+    <div class="fine">100% free · printable · readable on any device</div>
+  </div>
+</section>
+
+<section style="padding-top:64px">
+  <div class="wrap">
+    <div class="sec-label">Questions</div>
+    <h2 class="big">Before you start</h2>
+    <div class="faq">
+      <details><summary>Is this really free?</summary><p>Yes. To unlock the download you complete one quick, free offer on the next page (it takes under a minute). That’s how we’re able to give the guide away at no cost.</p></details>
+      <details><summary>How much time do I need each day?</summary><p>Most steps take under 10 minutes. The habit itself is deliberately shrunk down so it fits into an existing part of your day.</p></details>
+      <details><summary>Do I need to be motivated?</summary><p>No — that’s the entire point. The systems are built to work even on days you feel like doing nothing. You rely on structure, not willpower.</p></details>
+      <details><summary>Can I print it?</summary><p>Yes. It’s formatted for standard US Letter and includes a printable 7-day tracker.</p></details>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <span class="brand">AuraGuide</span>
+    <span>© 2026 AuraGuide · <a href="LOCKER_URL_PLACEHOLDER">The Discipline Reset</a></span>
+  </div>
+</footer>
+
+</body>
+</html>
